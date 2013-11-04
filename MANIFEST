@@ -7,10 +7,12 @@ cpanfile
 lib/Shodo.pm
 lib/Shodo/Hanshi.pm
 lib/Shodo/Suzuri.pm
+lib/Shodo/Test/JSONRPC.pm
 minil.toml
 sample_documents/test.md
 t/compile.t
 t/http_basic.t
 t/jsonrpc.t
+t/test_jsonrpc.t
 META.yml
 MANIFEST

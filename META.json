@@ -4,7 +4,7 @@
       "Yusuke Wada <yusuke@kamawada.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.8.1",
+   "generated_by" : "Minilla/v0.8.0",
    "license" : [
       "perl_5"
    ],
@@ -61,13 +61,16 @@
    "provides" : {
       "Shodo" : {
          "file" : "lib/Shodo.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Shodo::Hanshi" : {
          "file" : "lib/Shodo/Hanshi.pm"
       },
       "Shodo::Suzuri" : {
          "file" : "lib/Shodo/Suzuri.pm"
+      },
+      "Shodo::Test::JSONRPC" : {
+         "file" : "lib/Shodo/Test/JSONRPC.pm"
       }
    },
    "release_status" : "stable",
@@ -81,5 +84,5 @@
          "web" : "https://github.com/yusukebe/Shodo"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

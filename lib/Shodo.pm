@@ -6,7 +6,7 @@ use Shodo::Suzuri;
 use Shodo::Hanshi;
 use Path::Tiny qw/path/;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub new {
     my ($class, %args) = @_;
@@ -93,7 +93,7 @@ B<THIS IS A DEVELOPMENT RELEASE. API MAY CHANGE WITHOUT NOTICE>.
 
 =head1 Methods of "Shodo" Module
 
-=head2 new(%option)
+=head2 new
 
     my $shodo = Shodo->new(
         document_root => 'doc'
@@ -111,7 +111,7 @@ Set custom template.
 
     $shodo->document_root('doc');
 
-Set document root direcotry.
+Set document root directory.
 
 =head2 new_suzuri
 
@@ -123,7 +123,7 @@ Create and return new Suzuri object with the description.
 
     $shodo->stock($suzuri->doc());
 
-Stock text of documents for writing later. The parameter documnet is anything ok, but Markdown based is recommended.
+Stock text of documents for writing later. The parameter document is anything ok, but Markdown based is recommended.
 
 =head2 write
 
@@ -165,15 +165,23 @@ Validate with the rules defined by "params" method. Parameter must be HASH ref.
 
     $suzuri->doc();
 
-Return the Markdown formated document for Web API.
+Return the Markdown formatted document for Web API.
 
 =head1 SEE ALSO
 
-autodoc: L<https://github.com/r7kamura/autodoc>
+"autodoc": L<https://github.com/r7kamura/autodoc>
 
 L<Test::JsonAPI::Autodoc>
 
 What is Shodo?: L<http://en.wikipedia.org/wiki/Shodo>
+
+=head1 THANKS
+
+Songmu for naming as "Shodo". It's pretty.
+
+Moznion for making Test::JsonAPI::Autodoc.
+
+Hachioji.pm for advising.
 
 =head1 LICENSE
 
