@@ -75,7 +75,7 @@ __END__
 
 =head1 NAME
 
-Shodo::Test::JSONRPC - Test module using Shodo for JSON-RPC Web API.
+Shodo::Test::JSONRPC - Test module using Shodo for JSON-RPC Web API
 
 =head1 SYNOPSIS
 
@@ -128,7 +128,7 @@ Shodo::Test::JSONRPC - Test module using Shodo for JSON-RPC Web API.
         shodo_res_ok( $res, 200, 'Response is ok!' ); # auto sock document
     };
 
-    shodo_write(); # Generate a markdown-formatted document.
+    shodo_write('some_methods.md'); # Generate a markdown-formatted document.
 
     done_testing();
 

@@ -62,7 +62,7 @@
    "provides" : {
       "Shodo" : {
          "file" : "lib/Shodo.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "Shodo::Hanshi" : {
          "file" : "lib/Shodo/Hanshi.pm"
@@ -85,5 +85,5 @@
          "web" : "https://github.com/yusukebe/Shodo"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
