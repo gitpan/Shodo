@@ -44,7 +44,7 @@ sub default_template {
 
 ### Request
 
-```
+```json
 <?= $method ?> <?= $path ?><?= $query || '' ?>
 
 <?= $request_body ?>
@@ -66,7 +66,7 @@ sub default_template {
 
 ### Response
 
-```
+```json
 Status: <?= $code ?>
 
 <?= $response_body ?>
