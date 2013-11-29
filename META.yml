@@ -28,7 +28,7 @@ no_index:
 provides:
   Shodo:
     file: lib/Shodo.pm
-    version: 0.06
+    version: 0.07
   Shodo::Hanshi:
     file: lib/Shodo/Hanshi.pm
   Shodo::Suzuri:
@@ -48,4 +48,6 @@ resources:
   bugtracker: https://github.com/yusukebe/Shodo/issues
   homepage: https://github.com/yusukebe/Shodo
   repository: git://github.com/yusukebe/Shodo.git
-version: 0.06
+version: 0.07
+x_contributors:
+  - 'hisaichi5518 <hisaichi5518@gmail.com>'
