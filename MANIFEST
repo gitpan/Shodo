@@ -7,7 +7,7 @@ cpanfile
 lib/Shodo.pm
 lib/Shodo/Hanshi.pm
 lib/Shodo/Suzuri.pm
-lib/Shodo/Test/JSONRPC.pm
+lib/Test/Shodo/JSONRPC.pm
 minil.toml
 sample_documents/some_methods.md
 sample_documents/test.md
